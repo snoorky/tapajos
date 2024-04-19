@@ -9,6 +9,12 @@ $w.onReady(function () {
 	var bebidas = $w('#sectionbebidas');
 	var dropdown = $w('#dropFilters');
 
+	carnes.hide();
+	principal.hide();
+	sobremesa.hide();
+	acompanhamento.hide();
+	bebidas.hide();
+
 	if (wixWindowFrontend.formFactor === "Desktop") {
 		petiscos.onClick(function () {
 			petiscos.show();
